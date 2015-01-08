@@ -19,3 +19,7 @@ void dump_bits(unsigned char *outbuf, int len)
  }
  printf("\n");
 }
+
+struct c_complex
+  { double re, im;
+  };
