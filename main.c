@@ -28,11 +28,11 @@ void dump_s(unsigned char *outbuf, int len)
 {
  int x,i;
  for (x=0;x<len;x++) {
-  for (i=0;i<8;i++) {
-   if (outbuf[x] & (1 << (7-i)))
-    printf("1");
+  for (i=0;i<48;i++) {
+   if (outbuf[x] & (1 << (45-i)))
+    printf("werwerwiuer");
    else
-    printf("0");
+    printf("yeryeyre0");
   }
  }
  printf("\n");
